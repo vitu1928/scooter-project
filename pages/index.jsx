@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
+import Whatsapp from "../public/images/whatsapp.png"
+
 // Cards
 import MasterCard from "../public/images/cards/card1.jpg"
 import Visa from "../public/images/cards/card2.jpg"
@@ -35,47 +37,51 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-      // Logo
-        {/* <Image>
-          
-        </Image> */}
+        // Logo
       </header>
-      // Whataspp circle fixed
+      <div id="whatsappfixed">
+        <Image
+          src={Whatsapp}
+          width={42}
+          height={32}
+        />
+      </div>
       <main>
-        <section>
-          <div>
-            <h1>
-              Scooters Elétricas
-              <span>Experimente o novo</span>
-            </h1>
+        <section id="init">
+          <h1>
+            Scooters Elétricas<br /><span>Experimente o novo</span>
+          </h1>
+          <div id="options">
             <p>✔️Parcelamento em até 18x Cartão de Crédito;</p>
             <p>✔️Diversas cores disponíveis;</p>
             <p>✔️Carregamento rápido;</p>
             <p>✔️Facilidade na hora de ir e vir.</p>
             <p>✔️Garantia</p>
             <p>Os melhores preços você encontra na Scooter Elétrica</p>
-            <WhatsappButton>
-              Fale com nossa equipe agora
-            </WhatsappButton>
           </div>
+          <WhatsappButton>
+            Fale com nossa equipe agora
+          </WhatsappButton>
           <div>
             {/* <Image>
             Scooter 1
           </Image> */}
           </div>
           <p>Entregamos para Todo Brasil com Condições Especiais de Pagamento!</p>
-          {
-            [MasterCard, Visa, Hipercard, Elo, AmericanExpress, DinnerClub, MercadoPago].map(
-              (img, i) => 
-                <Image 
-                  src={img}
-                  key={i}
-                  objectFit="fill"
-                  width={80}
-                  height={65}
-                />
-            )
-          }
+          <div id="cards">
+            {
+              [MasterCard, Visa, Hipercard, Elo, AmericanExpress, DinnerClub, MercadoPago].map(
+                (img, i) => 
+                  <Image 
+                    src={img}
+                    key={i}
+                    objectFit="fill"
+                    width={50}
+                    height={35}
+                  />
+              )
+            }
+          </div>
         </section>
         <section id="boxinf">
           <BoxInf
@@ -207,6 +213,7 @@ export default function Home() {
         <WhatsappButton>
           {/* <Image /> // whatsapp */}
         </WhatsappButton>
+        
       </footer>
     </>
   )
