@@ -3,6 +3,8 @@ import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
 import Whatsapp from "../public/images/whatsapp.png"
+
+import chopeper from "../public/images/chopeper.jpeg"
 // Scooters
 import ScooterI from "../public/images/scooters/scooter1.png"
 import Scooter1 from "../public/images/scooters/01.png"
@@ -72,26 +74,26 @@ export default function Home() {
               Fale com nossa equipe agora
             </WhatsappButton>
           </div>
-          <Image 
-            src={ScooterI} 
+          <Image
+            src={ScooterI}
           />
         </section>
-        <section>
+        <section id="cards">
           <p>Entregamos para Todo Brasil com Condições Especiais de Pagamento!</p>
-            <div id="cards">
-              {
-                [MasterCard, Visa, Hipercard, Elo, AmericanExpress, DinnerClub, MercadoPago].map(
-                  (img, i) => 
-                    <Image 
-                      src={img}
-                      key={i}
-                      objectFit="fill"
-                      width={50}
-                      height={35}
-                    />
-                )
-              }
-            </div>
+          <div id="cards">
+            {
+              [MasterCard, Visa, Hipercard, Elo, AmericanExpress, DinnerClub, MercadoPago].map(
+                (img, i) =>
+                  <Image
+                    src={img}
+                    key={i}
+                    objectFit="fill"
+                    width={50}
+                    height={35}
+                  />
+              )
+            }
+          </div>
         </section>
         <section id="boxinf">
           <BoxInf
@@ -134,99 +136,110 @@ export default function Home() {
         <section id="scooters">
           <h2>Diversos modelos para você</h2>
           <div id="scooters">
-            {[Scooter1,Scooter2,Scooter3,Scooter4,Scooter5,Scooter6].map(
-                (img, i) => 
-                  <div class="scooterimg">
-                    <Image
-                      src={img}
-                      key={i}
-                      width={350} 
-                      height={350} 
-                    />
-                  </div>
-              )}
+            {[Scooter1, Scooter2, Scooter3, Scooter4, Scooter5, Scooter6].map(
+              (img, i) =>
+                <div class="scooterimg">
+                  <Image
+                    src={img}
+                    key={i}
+                    width={350}
+                    height={350}
+                  />
+                </div>
+            )}
           </div>
         </section>
         <section id="parallax">
-          <h2>SOLICITE AGORA SEU ORÇAMENTO EM POUCOS SEGUNDOS PELO WHATSAPP!</h2>
-          <p>Clique no botão e fale conosco!</p>
-          <WhatsappButton>QUERO SOLICITAR UM ORÇAMENTO</WhatsappButton>
+          <div>
+            <h2>SOLICITE AGORA SEU ORÇAMENTO EM POUCOS SEGUNDOS PELO WHATSAPP!</h2>
+            <p>Clique no botão e fale conosco!</p>
+            <WhatsappButton>QUERO SOLICITAR UM ORÇAMENTO</WhatsappButton>
+          </div>
         </section>
         <section id="benefits">
           <h2>Aqui na Scooter Elétrica BC Você encontra as seguintes vantagens</h2>
-          <Benefits
-            title="Garantia de 6 meses em todos produtos"
-            description="Todos nossos produtos possuem 6 meses de garantia!"
-            img={
-              <Image 
-                src={CertificadoDeGarantia}
-                width={50}
-                height={50}
-              /> 
-            }
-          />
-          <Benefits
-            title="Entrega Garantida"
-            description="Centenas de scooters entregues todos os meses através de nosso site ou loja."
-            img={
-              <Image 
-                src={EntregaExpressa}
-                width={50}
-                height={50}
-              /> 
-            }
-          />
-          <Benefits
-            title="Facilidade no pagamento"
-            description="Pagamento pode ser feito por cartões, PIX ou transferências. Tudo com segurança."
-            img={
-              <Image 
-                src={FromaDePagamento}
-                width={50}
-                height={50}
-              /> 
-            }
-          />
-          <Benefits
-            title="Frete Rápido para todo Brasil"
-            description="Consulte-nos sobre prazos e valores para sua região."
-            img={
-              <Image 
-                src={Brasil}
-                width={50}
-                height={50}
-              /> 
-            }
-          />
-          <Benefits
-            title="Parcelamos em até 18x no cartão"
-            description="Podendo ser em um cartão ou mais."
-            img={
-              <Image 
-                src={PagamentoComCartao}
-                width={50}
-                height={50}
-              /> 
-            }
-          />
-          <Benefits
-            title="Scooter a pronta entrega"
-            description="Escolha a sua e sai andando."
-            img={
-              <Image 
-                src={CertificadoDeGarantia}
-                width={50}
-                height={50}
-              /> 
-            }
-          />
+          <div>
+            <Benefits
+              title="Garantia de 6 meses em todos produtos"
+              description="Todos nossos produtos possuem 6 meses de garantia!"
+              img={
+                <Image
+                  src={CertificadoDeGarantia}
+                  width={50}
+                  height={50}
+                />
+              }
+            />
+            <Benefits
+              title="Entrega Garantida"
+              description="Centenas de scooters entregues todos os meses através de nosso site ou loja."
+              img={
+                <Image
+                  src={EntregaExpressa}
+                  width={50}
+                  height={50}
+                />
+              }
+            />
+            <Benefits
+              title="Facilidade no pagamento"
+              description="Pagamento pode ser feito por cartões, PIX ou transferências. Tudo com segurança."
+              img={
+                <Image
+                  src={FromaDePagamento}
+                  width={50}
+                  height={50}
+                />
+              }
+            />
+            <Benefits
+              title="Frete Rápido para todo Brasil"
+              description="Consulte-nos sobre prazos e valores para sua região."
+              img={
+                <Image
+                  src={Brasil}
+                  width={50}
+                  height={50}
+                />
+              }
+            />
+            <Benefits
+              title="Parcelamos em até 18x no cartão"
+              description="Podendo ser em um cartão ou mais."
+              img={
+                <Image
+                  src={PagamentoComCartao}
+                  width={50}
+                  height={50}
+                />
+              }
+            />
+            <Benefits
+              title="Scooter a pronta entrega"
+              description="Escolha a sua e sai andando."
+              img={
+                <Image
+                  src={CertificadoDeGarantia}
+                  width={50}
+                  height={50}
+                />
+              }
+            />
+            <div>
+              <h2>Quem somos</h2>
+              <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi exercitationem, officiis voluptatibus architecto ab repellendus quaerat temporibus iure id dolore accusantium, ipsam at. Dolor tempore voluptatem deleniti laudantium, odit voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, numquam neque in alias fugiat enim. Expedita eveniet itaque culpa deleniti veritatis, quod temporibus quo quasi soluta cupiditate vitae voluptates amet!</span>
+            </div>
+            <div>
+              <Image
+                src={chopeper}
+                width={245}
+                height={368}
+              />
+            </div>
+          </div>
         </section>
         <section id="whoweare">
-          <div>
-            <h2>Quem somos</h2>
-            <p></p>
-          </div>
-          {/* <Image /> */}
+
         </section>
       </main>
 
@@ -235,7 +248,7 @@ export default function Home() {
         <WhatsappButton>
           {/* <Image /> // whatsapp */}
         </WhatsappButton>
-        
+
       </footer>
     </>
   )
