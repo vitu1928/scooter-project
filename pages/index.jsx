@@ -3,6 +3,14 @@ import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
 import Whatsapp from "../public/images/whatsapp.png"
+// Scooters
+import ScooterI from "../public/images/scooters/scooter1.png"
+import Scooter1 from "../public/images/scooters/01.png"
+import Scooter2 from "../public/images/scooters/02.png"
+import Scooter3 from "../public/images/scooters/03.png"
+import Scooter4 from "../public/images/scooters/04.png"
+import Scooter5 from "../public/images/scooters/05.png"
+import Scooter6 from "../public/images/scooters/06.png"
 
 // Cards
 import MasterCard from "../public/images/cards/card1.jpg"
@@ -48,40 +56,42 @@ export default function Home() {
       </div>
       <main>
         <section id="init">
-          <h1>
-            Scooters Elétricas<br /><span>Experimente o novo</span>
-          </h1>
-          <div id="options">
-            <p>✔️Parcelamento em até 18x Cartão de Crédito;</p>
-            <p>✔️Diversas cores disponíveis;</p>
-            <p>✔️Carregamento rápido;</p>
-            <p>✔️Facilidade na hora de ir e vir.</p>
-            <p>✔️Garantia</p>
-            <p>Os melhores preços você encontra na Scooter Elétrica</p>
+          <div id="separation">
+            <h1>
+              Scooters Elétricas<br /><span>Experimente o novo</span>
+            </h1>
+            <div id="options">
+              <p>✔️Parcelamento em até 18x Cartão de Crédito;</p>
+              <p>✔️Diversas cores disponíveis;</p>
+              <p>✔️Carregamento rápido;</p>
+              <p>✔️Facilidade na hora de ir e vir.</p>
+              <p>✔️Garantia</p>
+              <p>Os melhores preços você encontra na Scooter Elétrica</p>
+            </div>
+            <WhatsappButton>
+              Fale com nossa equipe agora
+            </WhatsappButton>
           </div>
-          <WhatsappButton>
-            Fale com nossa equipe agora
-          </WhatsappButton>
-          <div>
-            {/* <Image>
-            Scooter 1
-          </Image> */}
-          </div>
+          <Image 
+            src={ScooterI} 
+          />
+        </section>
+        <section>
           <p>Entregamos para Todo Brasil com Condições Especiais de Pagamento!</p>
-          <div id="cards">
-            {
-              [MasterCard, Visa, Hipercard, Elo, AmericanExpress, DinnerClub, MercadoPago].map(
-                (img, i) => 
-                  <Image 
-                    src={img}
-                    key={i}
-                    objectFit="fill"
-                    width={50}
-                    height={35}
-                  />
-              )
-            }
-          </div>
+            <div id="cards">
+              {
+                [MasterCard, Visa, Hipercard, Elo, AmericanExpress, DinnerClub, MercadoPago].map(
+                  (img, i) => 
+                    <Image 
+                      src={img}
+                      key={i}
+                      objectFit="fill"
+                      width={50}
+                      height={35}
+                    />
+                )
+              }
+            </div>
         </section>
         <section id="boxinf">
           <BoxInf
@@ -121,9 +131,21 @@ export default function Home() {
             }
           >Pronta entrega</BoxInf>
         </section>
-        <section>
+        <section id="scooters">
           <h2>Diversos modelos para você</h2>
-            // [Image,Image,Image,Image,Image,Image]
+          <div id="scooters">
+            {[Scooter1,Scooter2,Scooter3,Scooter4,Scooter5,Scooter6].map(
+                (img, i) => 
+                  <div class="scooterimg">
+                    <Image
+                      src={img}
+                      key={i}
+                      width={350} 
+                      height={350} 
+                    />
+                  </div>
+              )}
+          </div>
         </section>
         <section id="parallax">
           <h2>SOLICITE AGORA SEU ORÇAMENTO EM POUCOS SEGUNDOS PELO WHATSAPP!</h2>

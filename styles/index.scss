@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+
 html,
 body {
     padding: 0;
@@ -75,26 +77,39 @@ main {
     justify-content: center;
     align-items: center;
 
+    
     section#init {
+        display: flex;
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         *:not(p, span) { padding: 15px; }
         
         h1 {
             font-style: normal;
-            font-weight: 800;
             font-size: 56px;
             line-height: 1.1;
             color: black;
             margin-bottom: 16px;
             text-align: left;
+            font-family: "Nunito Sans";
         }
 
         p { font-size: 20px;}
-        > div#options {
+
+        
+        div#options {
             text-align: initial;
         }
-        
-        > div#cards {
+    }
+    
+    section {
+        div#cards {
             display: flex;
             align-content: center;
             flex-wrap: nowrap;
@@ -125,6 +140,43 @@ main {
             box-shadow: -2px 2px 15px 2px rgba(0,0,0,0.15);
             border-radius: 10px;
         }
+    }
+
+    section {
+        
+        div#scooters {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            gap: 37px;
+            max-width: 1585px;
+        }
+
+        div.scooterimg {
+            padding: 10px;
+        }
+    }
+
+    section#parallax {
+        background-image: url("../public/images/manscooter.jpg");
+        backdrop-filter: brightness(0.6);
+        display: flex;
+        min-height: 500px;
+        width: 99vw;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
     }
 }
 
