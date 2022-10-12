@@ -58,9 +58,7 @@ export default function Home() {
       </main>
        
       <footer>
-        {/* <Image /> // Logo */}
         <WhatsappButton className={WhatsappButtonS}>
-          {/* <Image /> // whatsapp */}
         </WhatsappButton>
 
       </footer>
