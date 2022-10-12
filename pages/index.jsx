@@ -27,8 +27,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Scooter Elétrica BC</title>
-        <meta name="description" content="Scooter Elétrica BC" />
+        <title>MotoPlay</title>
+        <meta name="description" content="MotoPlay" />
         <link rel="icon" href="images/prancheta.ico" />
       </Head>
       <header>
@@ -56,7 +56,7 @@ export default function Home() {
         <Parallax className={ParallaxS}/>
         <Benefits className={BenefitsS} />
       </main>
-
+       
       <footer>
         {/* <Image /> // Logo */}
         <WhatsappButton className={WhatsappButtonS}>

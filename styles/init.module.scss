@@ -1,3 +1,6 @@
+$mainColor: #E4A524;
+$darkColor: #07001F;
+
 .Init {
     display: flex;
     flex-direction: row;
@@ -10,19 +13,57 @@
         padding: 20px;
     }
 
-    #separation { padding: 15px; padding-top: 0px;  }
+    .separation { padding: 15px; padding-top: 0px; }
 
     h1 {
         font-style: normal;
         font-size: 40px;
+        text-align: center  ;
         line-height: 1.1;
-        color: black;
+        color: $darkColor;
         margin-bottom: 16px;
         text-align: left;
         font-family: "Nunito Sans";
     }
 
-    #options {
+    .options {
+        text-align: initial;  
+    }
+
+    @for $i from 1 to 9 {
+        li:nth-child(#{$i}) {
+            text-align: initial;
+            color: white;
+            background-color: lighten($mainColor, $i * 2%);
+            border-radius: 8px;
+            // box-shadow: -5px -3px 0px 0px #07001f;
+        }
+    }
+
+    li:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 12px;
+        top: 2px;
+        width: 6px;
+        height: 15px;
+        border-width: 0 3px 3px 0;
+        border-style: solid;
+        border-color: #00a8a8;
+        transform-origin: bottom left;
+        transform: rotate(45deg);
+    }
+
+    li {
+        font-size: 15px;
+        position: relative;
+        list-style-type: none;
+        margin-bottom: 0.5rem;
+        text-align: left;
         text-align: initial;
+        color: #fff;
+        padding: 8px 8px 8px  2.5rem;
+        border-radius: 8px;
     }
 }

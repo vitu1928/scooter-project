@@ -1,9 +1,15 @@
 .Parallax {
     text-align: center;
     
+    
+    p { color: #fffad0; }
     h2 {
         font-size: clamp(10px, 6vw, 30px);
+        -webkit-text-stroke: 1px #fffcd5;
+        color: #fffad000;
     }
+
+    
 
     div {
         width: 100%;

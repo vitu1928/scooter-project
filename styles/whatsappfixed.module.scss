@@ -20,4 +20,15 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+
+    cursor: pointer;
+
+    filter: brightness(1);
+    transform: scale(1);
+    transition: filter 0.5s, transform 0.5s;
+
+    &:hover {
+        filter: brightness(1.2);
+        transform: scale(1.1);
+    }
 }

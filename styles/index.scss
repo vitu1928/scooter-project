@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
 
+$mainColor: #E4A524;
+$darkColor: #07001F;
+$brightColor: #E8BE6B;
+$paragraphColor: #63522E;
+
 html,
 body {
     padding: 0;
@@ -7,12 +12,20 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     overflow-x: hidden;
+    background: #ffefac;
+    background: -moz-linear-gradient(0deg, #ffefac 0%, #feffbe 100%);
+    background: -webkit-linear-gradient(0deg, #ffefac 0%, #feffbe 100%);
+    background: linear-gradient(0deg, #ffefac 0%, #feffbe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffefac', endColorstr='#feffbe',GradientType=1 );
+    
+    background-image: url(../public/images/waves.svg);
 }
 
 * {
     box-sizing: border-box;
 }
-
+p { color: $paragraphColor; }
+h1,h2,h3 { color: $darkColor; }
 @media (prefers-color-scheme: dark) {
     html {
         color-scheme: dark;

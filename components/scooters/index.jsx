@@ -12,10 +12,10 @@ export default function Scooters(props) {
     return (
         <section {...props}>
             <h2>Diversos modelos para você</h2>
-            <div id="scooters">
+            <div className="scooters">
                 {[Scooter1, Scooter2, Scooter3, Scooter4, Scooter5, Scooter6].map(
                     (img, i) =>
-                        <div class="scooterimg">
+                        <div class="scooterimg" key={i}>
                             <Image
                                 src={img}
                                 key={i}
