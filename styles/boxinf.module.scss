@@ -1,0 +1,21 @@
+.BoxInf {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+    > div {
+        width: 276px;
+        margin: 12px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 28px;
+        background: #fcfcfc;
+        box-shadow: -2px 2px 15px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 25px 0px 28px 0px;
+    }
+}

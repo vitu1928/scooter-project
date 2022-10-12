@@ -1,0 +1,22 @@
+.Scooters {
+    text-align: center;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 37px;
+        max-width: 1585px;
+
+        margin-bottom: 50px;
+
+        .scooterimg {
+            padding: 10px;
+        }
+    }
+
+    
+}

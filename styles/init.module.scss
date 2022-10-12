@@ -1,0 +1,28 @@
+.Init {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    *:not(p, span, div) {
+        padding: 20px;
+    }
+
+    #separation { padding: 15px; padding-top: 0px;  }
+
+    h1 {
+        font-style: normal;
+        font-size: 40px;
+        line-height: 1.1;
+        color: black;
+        margin-bottom: 16px;
+        text-align: left;
+        font-family: "Nunito Sans";
+    }
+
+    #options {
+        text-align: initial;
+    }
+}
