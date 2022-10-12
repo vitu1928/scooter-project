@@ -1,6 +1,5 @@
 import Image from 'next/image'
 
-// Scooters
 import Scooter1 from "../../public/images/scooters/01.png"
 import Scooter2 from "../../public/images/scooters/02.png"
 import Scooter3 from "../../public/images/scooters/03.png"

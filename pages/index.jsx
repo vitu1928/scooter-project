@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-//Styles
 import { Benefits as BenefitsS } from '../styles/benefits.module.scss'
 import { BoxInf  as BoxInfS} from '../styles/boxinf.module.scss'
 import { Cards as CardsS } from '../styles/cards.module.scss'
@@ -14,7 +13,6 @@ import { Init as InitS } from '../styles/init.module.scss'
 import Whatsapp from "../public/images/whatsapp.png"
 import Logo from "../public/images/logo/prancheta.png"
 
-//Components
 import Benefits from '../components/benefits'
 import BoxesInf from '../components/boxesinf'
 import Scooters from '../components/scooters'

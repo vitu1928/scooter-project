@@ -1,6 +1,5 @@
 import Image from "next/image"
 
-// Benefits
 import CertificadoDeGarantia from "../../public/images/boxinf/certificado-de-garantia.png"
 import PagamentoComCartao from "../../public/images/boxinf/pagamento-com-cartao-de-credito.png"
 import Brasil from "../../public/images/benefits/brasil.png"

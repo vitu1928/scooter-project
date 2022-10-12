@@ -1,6 +1,5 @@
 import Image from 'next/image'
 
-// Cards
 import MasterCard from "../../public/images/cards/card1.jpg"
 import Visa from "../../public/images/cards/card2.jpg"
 import Hipercard from "../../public/images/cards/card3.png"
