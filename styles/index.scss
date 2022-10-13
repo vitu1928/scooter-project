@@ -13,9 +13,9 @@ body {
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     overflow-x: hidden;
     background: #fffcf0;
-    background: -moz-linear-gradient(0deg, #fffae7 0%, #feffdb 100%);
-    background: -webkit-linear-gradient(0deg, #fffae7 0%, #feffdb 100%);
-    background: linear-gradient(0deg, #fffae7 0%, #feffdb 100%);
+    background: -moz-linear-gradient(0deg, #fffef9 0%, #fffff0 100%);
+    background: -webkit-linear-gradient(0deg, #fffef9 0%, #fffff0 100%);
+    background: linear-gradient(0deg, #fffef9 0%, #fffff0 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffefac', endColorstr='#feffbe', GradientType=1);
 }
 
@@ -33,27 +33,6 @@ h3 {
     color: $darkColor;
 }
 
-// @media (prefers-color-scheme: dark) {
-//     html {
-//         color-scheme: dark;
-//     }
-
-//     body {
-//         color: white;
-//         background: black;
-//     }
-// }
-
-@keyframes shape {
-    0% {
-        background-position: 0;
-    }
-
-    100% {
-        background-position: -2344px;
-    }
-}
-
 header {
     text-align: center;
 
@@ -67,8 +46,6 @@ header {
         left: 0;
         background-image: url(../public/images/shapedivider.svg);
         width: 100%;
-        animation: shape 60s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-        ;
     }
 }
 
