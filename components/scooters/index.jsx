@@ -3,7 +3,6 @@ import Image from 'next/image'
 import PatineteP10 from "../../public/images/scooters/PatineteP10.png"
 import ScooterLN20 from "../../public/images/scooters/ScooterLN20.png"
 import ScooterM2 from "../../public/images/scooters/scooterM2.png"
-import Scooters8 from "../../public/images/scooters/scooters8.png"
 import Scooters9 from "../../public/images/scooters/scooters9.png"
 import Scooterx6 from "../../public/images/scooters/scooterx6.png"
 import Scooterx11 from "../../public/images/scooters/scooterx11.png"
@@ -28,10 +27,6 @@ export default function Scooters(props) {
                         {
                             img: ScooterM2,
                             title: "Scooter M2"
-                        },
-                        {
-                            img: Scooters8,
-                            title: "Scooter s8"
                         },
                         {
                             img: Scooters9,

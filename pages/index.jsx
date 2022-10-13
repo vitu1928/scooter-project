@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import { Benefits as BenefitsS } from '../styles/benefits.module.scss'
-import { BoxInf  as BoxInfS} from '../styles/boxinf.module.scss'
 import { Parallax as ParallaxS } from '../styles/parallax.module.scss'
 import { WhatsappButton as WhatsappButtonS } from '../styles/whatsappbutton.module.scss'
 import { WhatsappFixed as WhatsappFixedS } from '../styles/whatsappfixed.module.scss'
@@ -13,7 +12,6 @@ import Whatsapp from "../public/images/whatsapp.png"
 import Logo from "../public/images/logo/logo_circular_df.png"
 
 import Benefits from '../components/benefits'
-import BoxesInf from '../components/boxesinf'
 import Scooters from '../components/scooters'
 import WhatsappButton from '../components/whatsappbutton'
 import Parallax from '../components/parallax'
@@ -45,18 +43,16 @@ export default function Home() {
         />
       </div>
       <main>
-        <BoxesInf className={BoxInfS}/>
         <h2>Praticidade e economia com a qualidade que só a MotoPlay tem.</h2>
         <Scooters className={ScooterS}/>
+        <WhatsappButton className={WhatsappButtonS}>QUERO SOLICITAR UM ORÇAMENTO</WhatsappButton>
         <Parallax className={ParallaxS}/>
         <Init className={InitS}/>
         <Benefits className={BenefitsS} />
       </main>
        
       <footer>
-        <WhatsappButton className={WhatsappButtonS}>
-        </WhatsappButton>
-
+        // WhatsappButton
       </footer>
     </>
   )

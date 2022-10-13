@@ -1,29 +1,7 @@
 .Parallax {
     text-align: center;
-    
-    
-    p { color: #fffad0; }
-    h2 {
-        font-size: clamp(10px, 6vw, 30px);
-        -webkit-text-stroke: 1px #fffcd5;
-        color: #fffad000;
-    }
-
-    
-
-    div {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.81);
-        display: flex;
-
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-
+    margin-top: 40px;
+    box-shadow: inset -1px 0px 18px 11px #0000008a;
     background-image: url("../public/images/womanscooter.jpg");
     height: 500px;
     width: 100%;
