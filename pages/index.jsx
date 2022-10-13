@@ -52,7 +52,7 @@ export default function Home() {
       </main>
        
       <footer>
-        // WhatsappButton
+        // WhatsappButton 
       </footer>
     </>
   )
