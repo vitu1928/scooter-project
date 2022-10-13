@@ -1,26 +1,60 @@
 import Image from 'next/image'
 
-import Scooter1 from "../../public/images/scooters/01.png"
-import Scooter2 from "../../public/images/scooters/02.png"
-import Scooter3 from "../../public/images/scooters/03.png"
-import Scooter4 from "../../public/images/scooters/04.png"
-import Scooter5 from "../../public/images/scooters/05.png"
-import Scooter6 from "../../public/images/scooters/06.png"
+import PatineteP10 from "../../public/images/scooters/PatineteP10.png"
+import ScooterLN20 from "../../public/images/scooters/ScooterLN20.png"
+import ScooterM2 from "../../public/images/scooters/scooterM2.png"
+import Scooters8 from "../../public/images/scooters/scooters8.png"
+import Scooters9 from "../../public/images/scooters/scooters9.png"
+import Scooterx6 from "../../public/images/scooters/scooterx6.png"
+import Scooterx11 from "../../public/images/scooters/scooterx11.png"
+
+import { ScootersDiv, ScooterImg } from "../../styles/scooters.module.scss"
 
 export default function Scooters(props) {
     return (
         <section {...props}>
-            <h2>Diversos modelos para você</h2>
-            <div className="scooters">
-                {[Scooter1, Scooter2, Scooter3, Scooter4, Scooter5, Scooter6].map(
-                    (img, i) =>
-                        <div class="scooterimg" key={i}>
+            <h2>Scooters Elétricas Novas e usadas a partir de 4,990</h2>
+            <div className={ScootersDiv}>
+                {
+                    [
+                        {
+                            img: PatineteP10,
+                            title: "Patinete P10"
+                        },
+                        {
+                            img: ScooterLN20,
+                            title: "Scooter LN20"
+                        },
+                        {
+                            img: ScooterM2,
+                            title: "Scooter M2"
+                        },
+                        {
+                            img: Scooters8,
+                            title: "Scooter s8"
+                        },
+                        {
+                            img: Scooters9,
+                            title: "Scooter s9"
+                        },
+                        {
+                            img: Scooterx6,
+                            title: "Scooter x6"
+                        },
+                        {
+                            img: Scooterx11,
+                            title: "Scooter x11"
+                        }
+                    ].map(
+                    ({img, title}, i) =>
+                        <div class={ScooterImg} key={i}>
                             <Image
                                 src={img}
                                 key={i}
                                 width={350}
                                 height={350}
                             />
+                            <p>{title}</p>
                         </div>
                 )}
             </div>

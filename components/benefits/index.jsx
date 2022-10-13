@@ -7,10 +7,6 @@ import EntregaExpressa from "../../public/images/benefits/entrega-expressa.png"
 import FromaDePagamento from "../../public/images/benefits/forma-de-pagamento.png"
 import ScooterEletrica from "../../public/images/benefits/scooter-eletrica.png"
 
-import chopeper from "../../public/images/chopeper.jpeg"
-
-import { WhoWeAre } from "../../styles/benefits.module.scss"
-
 export default function Benefits(props) {
     return (
         <section {...props}>
@@ -60,17 +56,6 @@ export default function Benefits(props) {
                         </div>
                     )
                 }
-            <div className={WhoWeAre}>
-                <h2>Quem somos</h2>
-                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi exercitationem, officiis voluptatibus architecto ab repellendus quaerat temporibus iure id dolore accusantium, ipsam at. Dolor tempore voluptatem deleniti laudantium, odit voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, numquam neque in alias fugiat enim. Expedita eveniet itaque culpa deleniti veritatis, quod temporibus quo quasi soluta cupiditate vitae voluptates amet!</span>
-            </div>
-            <div>
-                <Image
-                    src={chopeper}
-                    width={245}
-                    height={368}
-                />
-            </div>
             </div>
         </section>
     )

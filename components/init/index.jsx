@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import WhatsappButton from "../whatsappbutton"
 import ScooterI from "../../public/images/scooters/scooter1.png"
-import { WhatsappButton as WhatsappButtonS } from '../../styles/whatsappbutton.module.scss'
+import { Image as ImageS, WhatsappButton as WhatsappButtonS } from '../../styles/whatsappbutton.module.scss'
 
 export default function Init(props) {
     return(
@@ -32,6 +32,7 @@ export default function Init(props) {
             src={ScooterI}
             width={440}
             height={348}
+            className={ImageS}
           />
         </section>
     )

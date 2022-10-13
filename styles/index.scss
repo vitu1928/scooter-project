@@ -12,18 +12,27 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     overflow-x: hidden;
-    background: #ffefac;
-    background: -moz-linear-gradient(0deg, #ffefac 0%, #feffbe 100%);
-    background: -webkit-linear-gradient(0deg, #ffefac 0%, #feffbe 100%);
-    background: linear-gradient(0deg, #ffefac 0%, #feffbe 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffefac', endColorstr='#feffbe',GradientType=1 );    
+    background: #fffcf0;
+    background: -moz-linear-gradient(0deg, #fffae7 0%, #feffdb 100%);
+    background: -webkit-linear-gradient(0deg, #fffae7 0%, #feffdb 100%);
+    background: linear-gradient(0deg, #fffae7 0%, #feffdb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffefac', endColorstr='#feffbe', GradientType=1);
 }
 
 * {
     box-sizing: border-box;
 }
-p { color: $paragraphColor; }
-h1,h2,h3 { color: $darkColor; }
+
+p {
+    color: $paragraphColor;
+}
+
+h1,
+h2,
+h3 {
+    color: $darkColor;
+}
+
 @media (prefers-color-scheme: dark) {
     html {
         color-scheme: dark;
@@ -47,8 +56,8 @@ h1,h2,h3 { color: $darkColor; }
 
 header {
     text-align: center;
+
     .motoplay {
-        margin-bottom: -40px;
         margin-top: 30px;
     }
 
@@ -58,7 +67,8 @@ header {
         left: 0;
         background-image: url(../public/images/shapedivider.svg);
         width: 100%;
-        animation: shape 60s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;;
+        animation: shape 60s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+        ;
     }
 }
 

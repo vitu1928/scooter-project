@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 import { Benefits as BenefitsS } from '../styles/benefits.module.scss'
 import { BoxInf  as BoxInfS} from '../styles/boxinf.module.scss'
-import { Cards as CardsS } from '../styles/cards.module.scss'
 import { Parallax as ParallaxS } from '../styles/parallax.module.scss'
 import { WhatsappButton as WhatsappButtonS } from '../styles/whatsappbutton.module.scss'
 import { WhatsappFixed as WhatsappFixedS } from '../styles/whatsappfixed.module.scss'
@@ -11,12 +10,11 @@ import { Scooters as ScooterS } from '../styles/scooters.module.scss'
 import { Init as InitS } from '../styles/init.module.scss'
 
 import Whatsapp from "../public/images/whatsapp.png"
-import Logo from "../public/images/logo/prancheta.png"
+import Logo from "../public/images/logo/logo_circular_df.png"
 
 import Benefits from '../components/benefits'
 import BoxesInf from '../components/boxesinf'
 import Scooters from '../components/scooters'
-import Cards from '../components/cards'
 import WhatsappButton from '../components/whatsappbutton'
 import Parallax from '../components/parallax'
 import Init from '../components/init'
@@ -47,11 +45,11 @@ export default function Home() {
         />
       </div>
       <main>
-        <Init className={InitS}/>
-        <Cards className={CardsS}/>
         <BoxesInf className={BoxInfS}/>
+        <h2>Praticidade e economia com a qualidade que só a MotoPlay tem.</h2>
         <Scooters className={ScooterS}/>
         <Parallax className={ParallaxS}/>
+        <Init className={InitS}/>
         <Benefits className={BenefitsS} />
       </main>
        
