@@ -1,27 +1,25 @@
-.Parallax {
-    text-align: center;
-    margin-top: 40px;
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) {
+        .Parallax {
+            height: 0;
+            width: 0;
+        }
+    }
+}
 
-    background: white url("../public/images/womanscooter.jpg") center center no-repeat fixed;
-    background-size: cover;
+@supports (not (-webkit-hyphens:none)) and (not (-moz-appearance:none)) and (list-style-type:"*") {
+    .Parallax {
+        text-align: center;
+        margin-top: 40px;
 
-    box-shadow: inset -1px 0px 18px 11px #0000008a;
+        background: white url("../public/images/womanscooter.jpg") center center no-repeat fixed;
+        background-size: cover;
 
-    height: 500px;
-    width: 100%;
+        box-shadow: inset -1px 0px 18px 11px #0000008a;
 
-    color: white;
+        height: 500px;
+        width: 100%;
 
-    text-align: -moz-center;
-    margin-top: -40px;
-
-    background: -moz-white url("../public/images/womanscooter.jpg") center center no-repeat fixed;
-    background-size: -moz-cover;
-
-    box-shadow: -moz-inset -1px 0px 18px 11px #0000008a;
-
-    -moz-height: 500px;
-    -moz-width: 100%;
-
-    color: white;
+        color: white;
+    }
 }
