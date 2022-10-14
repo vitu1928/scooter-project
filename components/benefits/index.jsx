@@ -10,7 +10,7 @@ import ScooterEletrica from "../../public/images/benefits/scooter-eletrica.png"
 export default function Benefits(props) {
     return (
         <section {...props}>
-            <h2> Aqui na Scooter Elétrica BC Você encontra as seguintes vantagens</h2>
+            <h2>Aqui na MotoPlay você encontra as seguintes vantagens</h2>
             <div>
                 {
                     [
