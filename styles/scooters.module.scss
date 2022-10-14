@@ -4,6 +4,7 @@
 }
 
 .ScootersDiv {
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,7 +25,7 @@
     padding: 10px;
 
     // border: 1px solid #DDDDDD;
-    box-shadow: 0px 0px 5px 1px #00000019;
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 5%);
 
     transform: scale(1);
     transition: transform 1s;
@@ -32,6 +33,6 @@
     &:hover {
         transform: scale(1.1)
     }
-    
+
     p { color: #07001F !important; }
 }
