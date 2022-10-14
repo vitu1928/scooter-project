@@ -4,7 +4,6 @@
 }
 
 .ScootersDiv {
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,11 +14,12 @@
 
     font-weight: 500;
     font-size: 35px;
-    max-width: 1040px;
-
+    max-width: 900px;
 }
 
 .ScooterImg {
+    width: clamp(200px, 2vw, 50px);
+
     background-color: white;
     border-radius: 8px;
     padding: 10px;

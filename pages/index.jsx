@@ -47,7 +47,7 @@ export default function Home() {
       <main>
         <h2>Praticidade e economia com a qualidade que só a MotoPlay tem.</h2>
         <Scooters className={ScooterS}/>
-        <WhatsappButton className={WhatsappButtonS}>QUERO SOLICITAR UM ORÇAMENTO</WhatsappButton>
+        <WhatsappButton className={WhatsappButtonS}>Fale com nossa equipe</WhatsappButton>
         <Parallax className={ParallaxS}/>
         <Init className={InitS}/>
         <Benefits className={BenefitsS} />

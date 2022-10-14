@@ -22,7 +22,7 @@ export default function Init(props) {
               {/* <p>Os melhores preços você encontra na Scooter Elétrica</p> */}
             </div>
             <WhatsappButton className={WhatsappButtonS}>
-              Fale com nossa equipe agora
+              Fale com nossa equipe
             </WhatsappButton>
           </div>
           <Image

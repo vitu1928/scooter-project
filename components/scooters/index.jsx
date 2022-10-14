@@ -46,8 +46,8 @@ export default function Scooters(props) {
                             <Image
                                 src={img}
                                 key={i}
-                                width={300}
-                                height={300}
+                                width={200}
+                                height={200}
                             />
                             <p>{title}</p>
                         </div>
