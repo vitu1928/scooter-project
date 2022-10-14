@@ -37,13 +37,13 @@ export default function Home() {
         <div className="elementor-shape">⠀</div>
       </header>
       
-      <div className={WhatsappFixedS}>
+      <a className={WhatsappFixedS} href="https://api.whatsapp.com/send?phone=5521964043012">
         <Image
           src={Whatsapp}
           width={42}
           height={32}
         />
-      </div>
+      </a>
       <main>
         <h2>Praticidade e economia com a qualidade que só a MotoPlay tem.</h2>
         <Scooters className={ScooterS}/>
