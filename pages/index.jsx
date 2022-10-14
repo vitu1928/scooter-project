@@ -10,6 +10,7 @@ import { Init as InitS } from '../styles/init.module.scss'
 
 import Whatsapp from "../public/images/whatsapp.png"
 import Logo from "../public/images/logo/logo_circular_df.png"
+import Prancheta from "../public/images/logo/prancheta.png"
 // import BeepBeep from "../public/images/BeepBeep.png"
 
 import Benefits from '../components/benefits'
@@ -53,7 +54,18 @@ export default function Home() {
       </main>
        
       <footer>
-        {/* WhatsappButton */}
+        <Image
+          src={Prancheta}
+          width={150}
+          height={150}
+        />
+        <a href="https://api.whatsapp.com/send?phone=5521964043012">
+          <Image
+            src={Whatsapp}
+            width={80}
+            height={60}
+          />
+        </a>
       </footer>
     </>
   )

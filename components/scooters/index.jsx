@@ -42,7 +42,7 @@ export default function Scooters(props) {
                         }
                     ].map(
                     ({img, title}, i) =>
-                        <div class={ScooterImg} key={i}>
+                        <div className={ScooterImg} key={i}>
                             <Image
                                 src={img}
                                 key={i}
