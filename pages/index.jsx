@@ -10,6 +10,7 @@ import { Init as InitS } from '../styles/init.module.scss'
 
 import Whatsapp from "../public/images/whatsapp.png"
 import Logo from "../public/images/logo/logo_circular_df.png"
+// import BeepBeep from "../public/images/BeepBeep.png"
 
 import Benefits from '../components/benefits'
 import Scooters from '../components/scooters'

@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import CertificadoDeGarantia from "../../public/images/boxinf/certificado-de-garantia.png"
+import Chave from "../../public/images/boxinf/chave.png"
 import PagamentoComCartao from "../../public/images/boxinf/pagamento-com-cartao-de-credito.png"
 import Brasil from "../../public/images/benefits/brasil.png"
 import EntregaExpressa from "../../public/images/benefits/entrega-expressa.png"
@@ -15,9 +15,9 @@ export default function Benefits(props) {
                 {
                     [
                         {
-                            title: "Garantia de 6 meses em todos produtos",
-                            description: "Todos nossos produtos possuem 6 meses de garantia!",
-                            img: CertificadoDeGarantia
+                            title: "Vendemos peças e fazemos manutenção",
+                            description: "Aqui na MotoPlay vendemos todas as peças de Scooters fazemos trocas e manutenções.",
+                            img: Chave
                         },
                         {
                             title: "Entrega Garantida",

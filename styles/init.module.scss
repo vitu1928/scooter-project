@@ -44,18 +44,21 @@ $darkColor: #07001F;
         border-color: #00a8a8;
         transform-origin: bottom left;
         transform: rotate(45deg);
+
     }
 
     li {
-        text-align: initial;
+        font-weight: 600;
         color: black;
-        border-radius: 8px;
         font-size: 15px;
+        text-align: initial;
+        text-align: left;
+        text-align: initial;
+
+        border-radius: 8px;
         position: relative;
         list-style-type: none;
         margin-bottom: 0.5rem;
-        text-align: left;
-        text-align: initial;
         padding: 8px 8px 8px 2.5rem;
         border-radius: 8px;
     }

@@ -13,14 +13,11 @@ export default function Init(props) {
             </h1>
             <div className="options">
               <ul>
-                <li>Parcelamento em até 18x Cartão de Crédito;</li>
-                <li>Diversas cores disponíveis;</li>
-                <li>Carregamento rápido;</li>
-                <li>Facilidade na hora de ir e vir.</li>
-                <li>Garantia</li>
-                <li>Praticidade</li>
-                <li>Economia</li>
-                <li>Entrega para todo Brasil</li>
+                <li>Pronta Entrega</li>
+                <li>Garantia de Fábrica</li>
+                <li>Parcelamento em até 18x no cartão de crédito</li>
+                <li>Entrega para todo o Brasil</li>
+                <li>100% Elétrica e Economica</li>
               </ul>
               {/* <p>Os melhores preços você encontra na Scooter Elétrica</p> */}
             </div>

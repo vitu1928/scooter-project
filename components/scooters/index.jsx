@@ -4,7 +4,7 @@ import PatineteP10 from "../../public/images/scooters/PatineteP10.png"
 import ScooterLN20 from "../../public/images/scooters/ScooterLN20.png"
 import ScooterM2 from "../../public/images/scooters/scooterM2.png"
 import Scooters9 from "../../public/images/scooters/scooters9.png"
-import Scooterx6 from "../../public/images/scooters/scooterx6.png"
+import ScooterMC20 from "../../public/images/scooters/scooterMC20.png"
 import Scooterx11 from "../../public/images/scooters/scooterx11.png"
 
 import { ScootersDiv, ScooterImg } from "../../styles/scooters.module.scss"
@@ -33,8 +33,8 @@ export default function Scooters(props) {
                             title: "Scooter s9"
                         },
                         {
-                            img: Scooterx6,
-                            title: "Scooter x6"
+                            img: ScooterMC20,
+                            title: "Scooter MC20"
                         },
                         {
                             img: Scooterx11,
@@ -46,8 +46,8 @@ export default function Scooters(props) {
                             <Image
                                 src={img}
                                 key={i}
-                                width={350}
-                                height={350}
+                                width={300}
+                                height={300}
                             />
                             <p>{title}</p>
                         </div>
