@@ -40,7 +40,7 @@ export default function Home() {
         <Image
           src={Whatsapp}
           width={500}
-          height={430}
+          height={400}
         />
       </a>
       <main>
