@@ -4,15 +4,15 @@
 
     button {
         background-color: #36d06e;
-        padding: 25px;
+        padding: clamp(10px, 2vw, 70px);
         color: white;
         border-radius: 20px;
         border: none;
-        font-size: clamp(1rem, 2vw, 2rem);
+        font-size: clamp(9px, 3vw, 80px);
         cursor: pointer;
         transform: scale(1);
         filter: brightness(1);
-
+        
         transition: filter 0.5s, transform 0.5s;
 
         &:hover {

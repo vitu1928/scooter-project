@@ -39,6 +39,9 @@ header {
 
     .motoplay {
         margin-top: 30px;
+        display: inline-block;
+        width: clamp(20px, 30%, 600px);
+        height: auto;
     }
 
     .elementor-shape {
@@ -60,6 +63,10 @@ main {
     align-items: center;
 
     text-align: center;
+
+    h2 {
+        font-size: 2vw;
+    }
 }
 
 footer {

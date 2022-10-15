@@ -6,23 +6,32 @@ $darkColor: #07001F;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     margin-bottom: 50px;
+    align-items: center;
 
-    *:not(p, span, div) {
-        padding: 20px;
+    *:not(p, span, div, button) {
+        padding: 5px;
     }
 
     .separation { 
         padding: 15px; 
         padding-top: 0px;
         margin-bottom: 30px;
+
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+
+    
+    > div:nth-child(2) {
+        flex-shrink: 0;
+        width: clamp(50px, 30%, 60vh);
     }
 
     h1 {
         font-style: normal;
-        font-size: 40px;
+        font-size: 3vw;
         text-align: center  ;
         line-height: 1.1;
         color: $darkColor;
@@ -33,28 +42,13 @@ $darkColor: #07001F;
 
     .options {
         text-align: initial;  
-    }
-
-    li:before {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 12px;
-        top: 2px;
-        width: 6px;
-        height: 15px;
-        border-width: 0 3px 3px 0;
-        border-style: solid;
-        border-color: #00a8a8;
-        transform-origin: bottom left;
-        transform: rotate(45deg);
-
+        width: 100%;
     }
 
     li {
         font-weight: 600;
         color: black;
-        font-size: 15px;
+        font-size: clamp(2.5vw, 50%, 4vw);
         text-align: initial;
         text-align: left;
         text-align: initial;
@@ -65,5 +59,13 @@ $darkColor: #07001F;
         margin-bottom: 0.5rem;
         padding: 8px 8px 8px 2.5rem;
         border-radius: 8px;
+
+        span {
+            display: inline-block;
+            height: auto;
+            width: 2vw;
+            margin-right: 10px;
+        }
     }
+
 }

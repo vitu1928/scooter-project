@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import { Benefits as BenefitsS } from '../styles/benefits.module.scss'
 import { Parallax as ParallaxS } from '../styles/parallax.module.scss'
 import { WhatsappButton as WhatsappButtonS } from '../styles/whatsappbutton.module.scss'
 import { WhatsappFixed as WhatsappFixedS } from '../styles/whatsappfixed.module.scss'
@@ -30,8 +29,8 @@ export default function Home() {
       <header>
         <div className="motoplay">
           <Image src={Logo}
-            width={200}
-            height={200}
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="elementor-shape">⠀</div>
@@ -40,8 +39,8 @@ export default function Home() {
       <a className={WhatsappFixedS} href="https://api.whatsapp.com/send?phone=5521964043012">
         <Image
           src={Whatsapp}
-          width={42}
-          height={32}
+          width={500}
+          height={430}
         />
       </a>
       <main>
@@ -50,7 +49,7 @@ export default function Home() {
         <WhatsappButton className={WhatsappButtonS}>Fale com nossa equipe</WhatsappButton>
         <Parallax className={ParallaxS}/>
         <Init className={InitS}/>
-        <Benefits className={BenefitsS} />
+        <Benefits />
       </main>
        
       <footer>

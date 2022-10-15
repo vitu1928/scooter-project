@@ -14,11 +14,10 @@
 
     font-weight: 500;
     font-size: 35px;
-    max-width: 900px;
 }
 
 .ScooterImg {
-    width: clamp(20px, 25vw, 280px);
+    width: clamp(50px, 20%, 40vh);
 
     background-color: white;
     border-radius: 8px;
@@ -36,6 +35,6 @@
 
     p { 
         color: #07001F !important; 
-        font-size: clamp(20px, 5vw, 30px);
+        font-size: clamp(1vw, 2vw, 7vw);
     }
 }
