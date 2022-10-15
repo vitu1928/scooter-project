@@ -3,6 +3,7 @@
 
     h2 {
         font-family: "Nunito Sans";
+        font-size: 3vw;
     }
 
     div {
@@ -15,9 +16,11 @@
         
         > div {
             
-            margin: 30px;
+            margin: 10px;
             // width: clamp(340px, 40%, 478px);
-            font-size: clamp(15px, 5vw, 50px);
+            font-size: clamp(10px, 1vw, 50px);
+
+            text-align: initial;
 
             display: flex;
             flex-direction: column;
@@ -28,4 +31,4 @@
     }
 }
 
-.BenefitImage { width: clamp(40px, 20%, 150px); }
+.BenefitImage { width: clamp(40px, 10%, 150px); }
