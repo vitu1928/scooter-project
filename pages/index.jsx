@@ -55,14 +55,14 @@ export default function Home() {
       <footer>
         <Image
           src={Prancheta}
-          width={150}
-          height={150}
+          width={110}
+          height={110}
         />
         <a href="https://api.whatsapp.com/send?phone=5521964043012">
           <Image
             src={Whatsapp}
-            width={80}
-            height={60}
+            width={50}
+            height={40}
           />
         </a>
       </footer>
