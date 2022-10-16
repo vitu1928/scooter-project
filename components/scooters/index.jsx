@@ -7,7 +7,7 @@ import Scooters9 from "../../public/images/scooters/scooters9.png"
 import ScooterMC20 from "../../public/images/scooters/scooterMC20.png"
 import Scooterx11 from "../../public/images/scooters/scooterx11.png"
 
-import { ScootersDiv, ScooterImg } from "../../styles/scooters.module.scss"
+import { ScootersDiv, ScooterImg, ScootersS } from "./style.module.scss"
 
 export default function Scooters(props) {
     function mapear({img, title}, i) {
@@ -23,8 +23,8 @@ export default function Scooters(props) {
     }
 
     return (
-        <section {...props}>
-            <h2>Scooters Elétricas Novas e usadas a partir de 4,990</h2>
+        <section className={ScootersS}>
+            <h2>Scooters Elétricas Novas e usadas a partir de R$ 4.998,00</h2>
             <div className={ScootersDiv}>
                 {
                     [

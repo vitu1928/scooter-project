@@ -1,9 +1,12 @@
 .Benefits {
     text-align: center;
+    font-size: 2vh;
+    padding: 0 8vw;
 
     h2 {
         font-family: "Nunito Sans";
-        font-size: 3vw;
+        font-size: 2.5vh;
+        padding: 5px;
     }
 
     div {
@@ -11,14 +14,13 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         
         > div {
             
             margin: 10px;
             // width: clamp(340px, 40%, 478px);
-            font-size: clamp(10px, 1vw, 50px);
 
             text-align: initial;
 

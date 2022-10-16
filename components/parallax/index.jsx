@@ -1,5 +1,7 @@
-export default function Parallax(props) {
+import { ParallaxS } from './style.module.scss'
+
+export default function Parallax() {
     return(
-        <section {...props} />
+        <section className={ParallaxS} />
     )
 }

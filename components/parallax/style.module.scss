@@ -1,6 +1,6 @@
 @media not all and (min-resolution:.001dpcm) {
     @supports (-webkit-appearance:none) {
-        .Parallax {
+        .ParallaxS {
             height: 0;
             width: 0;
         }
@@ -8,16 +8,16 @@
 }
 
 @supports (not (-webkit-hyphens:none)) and (not (-moz-appearance:none)) and (list-style-type:"*") {
-    .Parallax {
+    .ParallaxS {
         text-align: center;
         margin-top: 40px;
 
-        background: white url("../public/images/womanscooter.jpg") center center no-repeat fixed;
+        background: white url("../../public/images/womanscooter.jpg") center center no-repeat fixed;
         background-size: cover;
 
         box-shadow: inset -1px 0px 18px 11px #0000008a;
 
-        height: 40vw;
+        height: 40vh;
         width: 100%;
 
         color: white;

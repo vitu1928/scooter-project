@@ -7,7 +7,7 @@ import EntregaExpressa from "../../public/images/benefits/entrega-expressa.png"
 import FromaDePagamento from "../../public/images/benefits/forma-de-pagamento.png"
 import ScooterEletrica from "../../public/images/benefits/scooter-eletrica.png"
 
-import { BenefitImage, Benefits as BenefitsS } from "../../styles/benefits.module.scss"
+import { BenefitImage, Benefits as BenefitsS } from "./style.module.scss"
 
 export default function Benefits() {
     function mapear({ img, description, title }, i) {

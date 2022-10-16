@@ -2,14 +2,23 @@ import Image from "next/image"
 
 import WhatsappButton from "../whatsappbutton"
 
-import ScooterI from "../../public/images/scooters/scooter1.png"
+import ScooterI from "../../public/images/scootersLocation.png"
 import CheckIcon from "../../public/images/check.png"
 
-import { Image as ImageS, WhatsappButton as WhatsappButtonS } from '../../styles/whatsappbutton.module.scss'
+import { Image as ImageS, WhatsappButton as WhatsappButtonS, InitS } from './style.module.scss'
 
-export default function Init(props) {
+export default function Init() {
     return(
-        <section {...props}>
+        <section className={InitS}>
+          <div>
+            <Image
+              src={ScooterI}
+              width={1000}
+              height={892}
+              className={ImageS}
+              objectFit="fill"
+            />
+          </div>
           <div className="separation">
             <h1>
               Scooters Elétricas
@@ -68,15 +77,7 @@ export default function Init(props) {
               Fale com nossa equipe
             </WhatsappButton>
           </div>
-          <div>
-            <Image
-              src={ScooterI}
-              width={1000}
-              height={892}
-              className={ImageS}
-              objectFit="fill"
-            />
-          </div>
+
         </section>
     )
 }
