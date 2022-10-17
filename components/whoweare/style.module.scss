@@ -1,5 +1,18 @@
 .WhoWeAreS {
     display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+    } 
+
+    div:nth-child(1) {
+        flex: 3;
+    }
 
     h2 {
         font-size: min(7vw, 3vh);
@@ -11,4 +24,14 @@
         line-height: 2;
         font-size: 2.5vh;
     }
+}
+
+.ImgS {
+    width: 40vw;
+    padding: 3vw 3vw 3vw 0;
+
+    @media screen and (max-width: 1000px) {
+        padding: 3vw;
+        width: 70%;
+    } 
 }

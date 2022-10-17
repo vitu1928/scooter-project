@@ -40,20 +40,22 @@ export default function Home() {
         <Init />
         <Benefits />
         <WhoWeAre />
-        
       </main>
 
       <footer>
-        <Image
-          src={Prancheta}
-          layout="responsive"
-          
-        />
+        <div>
+          <Image
+            src={Prancheta}
+            layout="responsive"
+            style={{
+              width: "5vw"
+            }}
+          />
+        </div>
         <a href="https://api.whatsapp.com/send?phone=5521964043012">
           <Image
             src={Whatsapp}
             layout="responsive"
-            
           />
         </a>
       </footer>

@@ -33,7 +33,7 @@ $darkColor: #07001F;
     li {
         font-weight: 600;
         color: black;
-        font-size: min(2.5vh, 4vw);
+        font-size: max(2.5vh, 2vw);
         text-align: initial;
 
         border-radius: 8px;
@@ -46,7 +46,7 @@ $darkColor: #07001F;
         span {
             display: inline-block;
             height: auto;
-            width: 2vh;
+            width: max(3vh, 2.2vw);
             margin-right: 10px;
         }
     }
@@ -60,7 +60,7 @@ $darkColor: #07001F;
 
     h1 {
         text-align: center;
-        font-size: 4vh;
+        font-size: min(4vh, 7vw);
     }
 }
 
@@ -71,5 +71,5 @@ $darkColor: #07001F;
 
 .ImageS{
     margin: 45px;
-    width: 40vh;
+    width: max(40vh, 40vw);
 }
