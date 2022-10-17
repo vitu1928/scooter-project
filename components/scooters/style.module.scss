@@ -17,7 +17,7 @@
 }
 
 .ScooterImg {
-    width: clamp(50px, 20%, 40vh);
+    width: min(30vh, 25vw);
 
     background-color: white;
     border-radius: 8px;

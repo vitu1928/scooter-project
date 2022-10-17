@@ -2,10 +2,10 @@ import Image from "next/image"
 
 import WhatsappButton from "../whatsappbutton"
 
-import ScooterI from "../../public/images/scootersLocation.png"
 import CheckIcon from "../../public/images/check.png"
+import ScooterI from "../../public/images/scootersLocation.png"
 
-import { ButtonWpp, ImageS, WhatsappButton as WhatsappButtonS, InitS, SeparationS } from './style.module.scss'
+import { ButtonWpp, ImageS, InitS, SeparationS, WhatsappButton as WhatsappButtonS } from './style.module.scss'
 
 export default function Init() {
   return (
@@ -13,9 +13,7 @@ export default function Init() {
       <div className={ImageS}>
         <Image
           src={ScooterI}
-          width={1000}
-          height={892}
-          objectFit="fill"
+          layout="responsive"
         />
       </div>
       <div className={SeparationS}>
@@ -24,51 +22,25 @@ export default function Init() {
         </h1>
         <div className="options">
           <ul>
-            <li>
-              <span className="checkIcon">
-                <Image
-                  src={CheckIcon}
-                  width={100}
-                  height={100}
-                />
-              </span>
-              Pronta Entrega</li>
-            <li>
-              <span className="checkIcon">
-                <Image
-                  src={CheckIcon}
-                  width={100}
-                  height={100}
-                />
-              </span>
-              Garantia de Fábrica</li>
-            <li>
-              <span className="checkIcon">
-                <Image
-                  src={CheckIcon}
-                  width={100}
-                  height={100}
-                />
-              </span>
-              Parcelamento em até 18x no cartão de crédito</li>
-            <li>
-              <span className="checkIcon">
-                <Image
-                  src={CheckIcon}
-                  width={100}
-                  height={100}
-                />
-              </span>
-              Entrega para todo o Brasil</li>
-            <li>
-              <span className="checkIcon">
-                <Image
-                  src={CheckIcon}
-                  width={100}
-                  height={100}
-                />
-              </span>
-              100% Elétrica e Economica</li>
+            {
+              [
+                "Pronta Entrega",
+                "Garantia de Fábrica",
+                "Parcelamento em até 18x no cartão de crédito",
+                "Entrega para todo o Brasil",
+                "100% Elétrica e Economica"
+              ].map(text => 
+                <li>
+                  <span className="checkIcon">
+                    <Image
+                      src={CheckIcon}
+                      layout="responsive"
+                      />
+                  </span>
+                  {text}
+                </li>
+              )
+            }
           </ul>
           {/* <p>Os melhores preços você encontra na Scooter Elétrica</p> */}
         </div>

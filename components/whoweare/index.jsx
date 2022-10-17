@@ -1,8 +1,6 @@
-import Image from "next/image"
 
 import { WhoWeAreS } from "./style.module.scss"
 
-import BeepBeep from "../../public/images/BeepBeep.png"
 
 export default function WhoWeAre() {
     return (
@@ -14,8 +12,8 @@ export default function WhoWeAre() {
           {/* <div>
             <Image
               src={BeepBeep}
-              width={1000}
-              height={1000}
+              layout="responsive"
+              
             />
           </div> */}
         </div>

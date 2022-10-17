@@ -1,32 +1,30 @@
 .WhatsappFixedS {
     position: fixed;
-    width: clamp(30px, 7vh, 140px);
-    height: clamp(30px, 7vh, 140px);
-    padding: 5px;
-    bottom: 20px;
-    right: 20px;
+
+    width: min(10vh, 10vw);
+    height: min(10vh, 10vw);
+    bottom: 2vh;
+    right: 1vw;
 
     background-color: #25d366;
     color: #FFF;
-    border-radius: 100px;
-
-    text-align: center;
-    font-size: 30px;
-
     box-shadow: 1px 1px 2px #888;
-
-    z-index: 1000;
+    border-radius: 100%;
+    z-index: 1;
 
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
-    cursor: pointer;
 
+    cursor: pointer;
     filter: brightness(1);
 
     transform: scale(1);
     transition: filter 0.5s, transform 0.5s;
+    div {
+        width: 100%;
+    }
 
     &:hover {
         filter: brightness(1.2);

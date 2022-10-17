@@ -40,7 +40,7 @@ header {
     .motoplay {
         margin-top: 30px;
         display: inline-block;
-        width: clamp(20px, 15%, 600px);
+        width: clamp(1vw, 20%, 20vh);
         height: auto;
     }
 
@@ -70,10 +70,10 @@ main {
         border-radius: 10px;
         padding: 1vh;
         font-weight: 500;
-        font-size: 2.5vh;
     }
+    
     h2 {
-        font-size: 2.5vh;
+        font-size: min(3vw, 3vh);
         font-weight: 600;
     }
 }

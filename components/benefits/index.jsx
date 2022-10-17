@@ -1,11 +1,11 @@
 import Image from "next/image"
 
-import Chave from "../../public/images/boxinf/chave.png"
-import PagamentoComCartao from "../../public/images/boxinf/pagamento-com-cartao-de-credito.png"
 import Brasil from "../../public/images/benefits/brasil.png"
 import EntregaExpressa from "../../public/images/benefits/entrega-expressa.png"
 import FromaDePagamento from "../../public/images/benefits/forma-de-pagamento.png"
 import ScooterEletrica from "../../public/images/benefits/scooter-eletrica.png"
+import Chave from "../../public/images/boxinf/chave.png"
+import PagamentoComCartao from "../../public/images/boxinf/pagamento-com-cartao-de-credito.png"
 
 import { BenefitImage, Benefits as BenefitsS } from "./style.module.scss"
 
@@ -15,8 +15,7 @@ export default function Benefits() {
             <div className={BenefitImage}>
                 <Image
                     src={img}
-                    width={500}
-                    height={500}
+                    layout="responsive"
                 />
             </div>
             <h3>{title}</h3>

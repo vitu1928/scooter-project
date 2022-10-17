@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import Whatsapp from "../public/images/whatsapp.png"
 import Logo from "../public/images/logo/logo_circular_df.png"
 import Prancheta from "../public/images/logo/prancheta.png"
+import Whatsapp from "../public/images/whatsapp.png"
 
 import Benefits from '../components/benefits'
-import WhoWeAre from '../components/whoweare'
+import Init from '../components/init'
+import Parallax from '../components/parallax'
 import Scooters from '../components/scooters'
 import WhatsappButton from '../components/whatsappbutton'
-import Parallax from '../components/parallax'
-import Init from '../components/init'
+import WhoWeAre from '../components/whoweare'
 import Whatsappfixed from '../components/whtsappfixed'
 
 export default function Home() {
@@ -24,8 +24,8 @@ export default function Home() {
       <header>
         <div className="motoplay">
           <Image src={Logo}
-            width={1000}
-            height={1000}
+            layout="responsive"
+            
           />
         </div>
         <div className="elementor-shape">⠀</div>
@@ -46,14 +46,14 @@ export default function Home() {
       <footer>
         <Image
           src={Prancheta}
-          width={110}
-          height={110}
+          layout="responsive"
+          
         />
         <a href="https://api.whatsapp.com/send?phone=5521964043012">
           <Image
             src={Whatsapp}
-            width={50}
-            height={40}
+            layout="responsive"
+            
           />
         </a>
       </footer>

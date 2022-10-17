@@ -9,8 +9,9 @@ $darkColor: #07001F;
     justify-content: center;
     align-items: center;
 
+    margin-top: 3vh;
     *:not(p, span, div, button) {
-        padding: 5px;
+        padding: 1vh;
     }
 
     h1 {
@@ -32,16 +33,14 @@ $darkColor: #07001F;
     li {
         font-weight: 600;
         color: black;
-        font-size: clamp(2vh, 50%, 4vh);
-        text-align: initial;
-        text-align: left;
+        font-size: min(2.5vh, 4vw);
         text-align: initial;
 
         border-radius: 8px;
         position: relative;
         list-style-type: none;
         margin-bottom: 0.5rem;
-        padding: 8px 8px 8px 2.5rem;
+        padding: 0.5vh;
         border-radius: 8px;
 
         span {
@@ -59,10 +58,9 @@ $darkColor: #07001F;
     padding-top: 0px;
     margin-bottom: 30px;
 
-
-    h2 {
-        font-size: 2.5vh;
+    h1 {
         text-align: center;
+        font-size: 4vh;
     }
 }
 
@@ -73,6 +71,5 @@ $darkColor: #07001F;
 
 .ImageS{
     margin: 45px;
-    flex-shrink: 0;
-    width: clamp(50px, 60%, 60vh);
+    width: 40vh;
 }

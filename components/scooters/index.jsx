@@ -3,11 +3,11 @@ import Image from 'next/image'
 import PatineteP10 from "../../public/images/scooters/PatineteP10.png"
 import ScooterLN20 from "../../public/images/scooters/ScooterLN20.png"
 import ScooterM2 from "../../public/images/scooters/scooterM2.png"
-import Scooters9 from "../../public/images/scooters/scooters9.png"
 import ScooterMC20 from "../../public/images/scooters/scooterMC20.png"
+import Scooters9 from "../../public/images/scooters/scooters9.png"
 import Scooterx11 from "../../public/images/scooters/scooterx11.png"
 
-import { ScootersDiv, ScooterImg, ScootersS } from "./style.module.scss"
+import { ScooterImg, ScootersDiv, ScootersS } from "./style.module.scss"
 
 export default function Scooters(props) {
     function mapear({img, title}, i) {
@@ -15,8 +15,8 @@ export default function Scooters(props) {
             <Image
                 src={img}
                 key={i}
-                width={1000}
-                height={1000}
+                layout="responsive"
+                
             />
             <p>{title}</p>
         </div>

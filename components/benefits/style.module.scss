@@ -20,7 +20,6 @@
         > div {
             
             margin: 10px;
-            // width: clamp(340px, 40%, 478px);
 
             text-align: initial;
 
@@ -33,4 +32,7 @@
     }
 }
 
-.BenefitImage { width: clamp(40px, 10%, 150px); }
+.BenefitImage { 
+    width: min(4vh, 14vw); 
+    display: block !important;
+}

@@ -5,11 +5,11 @@
     button {
         margin-top: 3vh;
         background-color: #36d06e;
-        padding: clamp(10px, 2vh, 70px);
+        padding: min(2vh, 5vw);
         color: white;
         border-radius: 20px;
         border: none;
-        font-size: clamp(9px, 2vh, 80px);
+        font-size: min(2.7vh, 5vw);
         cursor: pointer;
         transform: scale(1);
         filter: brightness(1);
