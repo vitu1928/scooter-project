@@ -29,8 +29,8 @@ export default function Init() {
                 "Parcelamento em até 18x no cartão de crédito",
                 "Entrega para todo o Brasil",
                 "100% Elétrica e Economica"
-              ].map(text => 
-                <li>
+              ].map((text, key) => 
+                <li key={key}>
                   <span className="checkIcon">
                     <Image
                       src={CheckIcon}
