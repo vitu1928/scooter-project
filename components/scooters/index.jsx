@@ -1,8 +1,10 @@
 import Image from 'next/image'
 
-import ScooterMC20 from "../../public/images/scooters/scooterMC20.png"
-import Scooters9 from "../../public/images/scooters/scooters9.png"
-import Scooterx11 from "../../public/images/scooters/scooterx11.png"
+import ScooterX11_2 from "../../public/images/scooters/X11_2.png"
+import ScooterM21 from "../../public/images/scooters/MC21.png"
+import ScooterMC20 from "../../public/images/scooters/MC20.png"
+import ScooterS9 from "../../public/images/scooters/S9.png"
+import ScooterX11 from "../../public/images/scooters/X11.png"
 
 import { ScooterImg, ScootersDiv, ScootersS } from "./style.module.scss"
 
@@ -14,16 +16,24 @@ export default function Scooters(props) {
                 {
                     [
                         {
-                            img: Scooters9,
-                            title: "Scooter s9"
+                            img: ScooterX11,
+                            title: "Scooter X11"
+                        },
+                        {
+                            img: ScooterS9,
+                            title: "Scooter S9"
                         },
                         {
                             img: ScooterMC20,
                             title: "Scooter MC20"
                         },
                         {
-                            img: Scooterx11,
-                            title: "Scooter x11"
+                            img: ScooterX11_2,
+                            title: "Scooter X11"
+                        },
+                        {
+                            img: ScooterM21,
+                            title: "Scooter MC21"
                         }
                     ].map(({ img, title }, i) => {
                         return <div className={ScooterImg} key={i}>
