@@ -90,12 +90,12 @@ footer {
     flex-direction: row;
 
     div {
-        width: 10vw;
+        width: max(10vw, 10vh);
     }
 
     a {
         filter: brightness(1);
-        width: 5vw;
+        width: max(6vw, 6vh);
 
         transition: filter .5s ease;
 
