@@ -3,7 +3,7 @@ import Image from 'next/image'
 import ScooterX11_2 from "../../public/images/scooters/X11_2.png"
 import ScooterM21 from "../../public/images/scooters/MC21.png"
 import ScooterMC20 from "../../public/images/scooters/MC20.png"
-import ScooterS9 from "../../public/images/scooters/S9.png"
+import ScooterX7 from "../../public/images/scooters/X7.png"
 import ScooterX11 from "../../public/images/scooters/X11.png"
 
 import { ScooterImg, ScootersDiv, ScootersS } from "./style.module.scss"
@@ -11,7 +11,7 @@ import { ScooterImg, ScootersDiv, ScootersS } from "./style.module.scss"
 export default function Scooters(props) {
     return (
         <section className={ScootersS}>
-            <h2>Scooters Elétricas Novas e usadas a partir de R$ 4.998,00</h2>
+            <h2>Scooters Elétricas Novas e usadas a partir de R$ 5.998,00</h2>
             <div className={ScootersDiv}>
                 {
                     [
@@ -20,8 +20,8 @@ export default function Scooters(props) {
                             title: "Scooter X11"
                         },
                         {
-                            img: ScooterS9,
-                            title: "Scooter S9"
+                            img: ScooterX7,
+                            title: "Scooter X7"
                         },
                         {
                             img: ScooterMC20,
@@ -41,7 +41,6 @@ export default function Scooters(props) {
                                 src={img}
                                 key={i}
                                 layout="responsive"
-
                             />
                             <p>{title}</p>
                         </div>
