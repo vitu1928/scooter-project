@@ -33,7 +33,7 @@ export default function Home() {
 
       <Whatsappfixed />
       <main>
-        <h2>Praticidade, qualidade e preço só a moto play tem</h2>
+        <h2>Praticidade, qualidade e preço que só a MotoPlay tem!</h2>
         <Scooters />
         <WhatsappButton >Fale com nossa equipe</WhatsappButton>
         <Parallax />
