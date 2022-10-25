@@ -5,6 +5,7 @@ import ScooterM21 from "../../public/images/scooters/MC21.png"
 import ScooterMC20 from "../../public/images/scooters/MC20.png"
 import ScooterX7 from "../../public/images/scooters/X7.png"
 import ScooterX11 from "../../public/images/scooters/X11.png"
+import Quadriciclo from "../../public/images/scooters/quadriciclo.png"
 
 import { ScooterImg, ScootersDiv, ScootersS } from "./style.module.scss"
 
@@ -34,6 +35,10 @@ export default function Scooters(props) {
                         {
                             img: ScooterM21,
                             title: "Scooter MC21"
+                        },
+                        {
+                            img: Quadriciclo,
+                            title: "Quadriciclo"
                         }
                     ].map(({ img, title }, i) => {
                         return <div className={ScooterImg} key={i}>

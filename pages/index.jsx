@@ -47,9 +47,6 @@ export default function Home() {
           <Image
             src={Prancheta}
             layout="responsive"
-            style={{
-              width: "5vw"
-            }}
           />
         </div>
         <a href="https://api.whatsapp.com/send?phone=5521964043012">
