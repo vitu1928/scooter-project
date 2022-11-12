@@ -16,11 +16,6 @@ import Whatsappfixed from '../components/whtsappfixed'
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>MotoPlay</title>
-        <meta name="description" content="MotoPlay" />
-        <link rel="icon" href="images/prancheta.ico" />
-      </Head>
       <header>
         <div className="motoplay">
           <Image src={Logo}
