@@ -2,7 +2,9 @@
   <img src="https://scooter-project.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_circular_df.53a27f5f.png&w=1920&q=75" alt="MotoPlay's Logo" width="300px">
 </p>
   
-<h1 align="center">MotoPlay</h1>
+<h1 align="center">
+  <a href="https://www.motoplayscooters.com/">MotoPlay</a>
+</h1>
 <div align="center">
     <ul type="none" align="center">
     <li>
@@ -15,8 +17,8 @@
  <!--<img src="https://img.shields.io/github/license/vitu1928/TaskManager?style=for-the-badge"> -->
 </div>
 <p>
-  	<blockquote>Pequena Desc</blockquote>
-    Desc
+  	<blockquote>MotoPlay Scooters</blockquote>
+    One Page da MotoPlay com enfoque no redirecionamento para o whatsapp da empresa
 </p>
 <div>
 
