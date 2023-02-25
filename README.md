@@ -28,6 +28,11 @@
         <h2>Preview</h2>
         <table>
             <tr>
+                <td colspan="2" align="center">
+                    <h3>Computador 💻</h3>
+                </td>
+            </tr>
+            <tr>
                 <td>
                     Início
                 </td>
@@ -55,6 +60,11 @@
             </tr>
         </table>
         <table>
+            <tr>
+                <td colspan="4" align="center">
+                    <h3>Celular 📱</h3>
+                </td>
+            </tr>
             <tr>
                 <td>
                     Início
