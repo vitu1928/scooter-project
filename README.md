@@ -12,7 +12,7 @@
             <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="35px">
             <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" height="35px"></a>
             <a href="https://nodejs.org/pt-br/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" height="35px"></a>
-            <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" height="35px">
+            <a href="https://sass-lang.com/"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" height="35px"></a>
             <!--<img src="https://img.shields.io/github/license/vitu1928/TaskManager?style=for-the-badge"> -->
     </ul>
 </div>
@@ -27,59 +27,59 @@
     <div>
         <h2>Preview</h2>
         <table>
-            <tr>
-                <td colspan="2" align="center">
-                    <h3>Computador 💻</h3>
+            <tr align="center">
+                <td colspan="2">
+                    <h3>💻 Computador</h3>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
-                    Início
+                    <b>Início</b>
                 </td>
                 <td>
-                    Vantagens
+                    <b>Vantagens</b>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
                     <img src=".github/pc/pginit.png" alt="Screenshot Início">
                 </td>
                 <td><img src=".github/pc/vantagens.png" alt="Screenshot Vantagens"></td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
-                    Benefícios
+                    <b>Benefícios</b>
                 </td>
                 <td>
-                    Quem Somos
+                    <b>Quem Somos</b>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td><img src=".github/pc/benefits.png" alt="Screenshot Benefícios"></td>
                 <td><img src=".github/pc/quemsomos.png" alt="Screenshot Quem somos"></td>
             </tr>
         </table>
         <table>
-            <tr>
+            <tr align="center">
                 <td colspan="4" align="center">
-                    <h3>Celular 📱</h3>
+                    <h3>📱 Celular</h3>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
-                    Início
+                    <b>Início</b>
                 </td>
                 <td>
-                    Vantagens
+                    <b>Vantagens</b>
                 </td>
                 <td>
-                    Benefícios
+                    <b>Benefícios</b>
                 </td>
                 <td>
-                    Quem Somos
+                    <b>Quem Somos</b>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
                     <img src=".github/mob/pginit_mob.png" alt="Screenshot Início">
                 </td>
@@ -105,7 +105,7 @@
                 <br />
             </div>
             <a href="https://github.com/vitu1928">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/58984150?v=4" width="100px;" alt="Victor Github Profile's Image" />
+                <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/58984150?v=4" width="135px;" alt="Victor Github Profile's Image" />
                 <br />
             </a>
             <div>
