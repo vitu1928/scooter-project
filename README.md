@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-    <a href="https://www.motoplayscooters.com/">MotoPlay</a>
+    <a href="https://scooter-project.vercel.app/">MotoPlay</a>
 </h1>
 <div align="center">
     <ul type="none" align="center">
